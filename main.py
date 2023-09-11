@@ -102,7 +102,7 @@ class Service_personnel():
         print(self.surname + " " + self.name + " " + "works in a hospital")
 
     def __del__(self):
-        print("Удаление объекта")
+        print("Удаление объекта полностью")
 
 sev1 = Service_personnel("Milekova","Anna","Yurievna","laboratory assistant","10 years old","Victory street",6)
 
